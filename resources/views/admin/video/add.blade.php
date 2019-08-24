@@ -114,6 +114,11 @@
 
 @section('bottom-js')
 
+{{-- ckeditor script --}}
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'video_description' );
+    </script>
 <script>
 
 $(document).ready(function() {
