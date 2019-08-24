@@ -50,7 +50,9 @@
 				<iframe src="https://player.vimeo.com/video/{{ $video->video_source }}" width="100%" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 				@elseif ($video->video_source_name === 'direct_upload')
-
+				<video width="100%" height="250" controls>
+					<source src="{{ asset('videos/'.$video->video_source) }}">
+				</video>
 				@endif
 
 				<div class="card-body">

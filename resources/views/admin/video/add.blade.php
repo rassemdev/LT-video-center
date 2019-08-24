@@ -16,7 +16,7 @@
 				<div class="form-group">
 					<label for="video_title">Title*</label>
 
-					<input type="text" name="title" class="form-control  @error('title') is-invalid @enderror" id="video_title">
+					<input type="text" name="title" class="form-control  @error('title') is-invalid @enderror" id="video_title" value="{{ old('title') }}">
 
 					@error('title')
 						<span class="invalid-feedback" role="alert">
@@ -28,7 +28,7 @@
 				<div class="form-group">
 					<label for="video_description">Description*</label>
 
-					<textarea class="form-control @error('description') is-invalid @enderror" name="description" id="video_description" rows="4"></textarea>
+					<textarea class="form-control @error('description') is-invalid @enderror" name="description" id="video_description" rows="4">{{ old('description') }}</textarea>
 
 					@error('description')
 						<span class="invalid-feedback" role="alert">
@@ -53,9 +53,9 @@
 					<label for="video_source_name">Video Source*</label>
 
 					<select class="form-control select_video_source @error('video_source_name') is-invalid @enderror" name="video_source_name" id="video_source_name">
-						<option value="youtube">Youtube</option>
-						<option value="vimeo">Vimeo</option>
-						<option value="direct_upload">Direct Upload</option>
+						<option value="youtube" {{ old('video_source_name') === 'youtube' ? 'selected' : '' }}>Youtube</option>
+						<option value="vimeo" {{ old('video_source_name') === 'vimeo' ? 'selected' : '' }}>Vimeo</option>
+						<option value="direct_upload" {{ old('video_source_name') === 'direct_upload' ? 'selected' : '' }}>Direct Upload</option>
 					</select>
 
 					@error('video_source_name')
@@ -67,7 +67,7 @@
 				<div class="form-group source_field">
 					<label for="youtube">Youtube ID*</label>
 
-					<input type="text" name="video_source" class="form-control @error('video_source') is-invalid @enderror" id="youtube">
+					<input type="text" name="video_source" class="form-control @error('video_source') is-invalid @enderror" id="youtube" value="{{ old('video_source') }}">
 
 					@error('video_source')
 						<span class="invalid-feedback" role="alert">
@@ -78,7 +78,7 @@
 				<div class="form-group d-none source_field mb-3">
 					<label for="vimeo">Vimeo ID*</label>
 
-					<input type="text" name="video_source" class="form-control @error('video_source') is-invalid @enderror" id="vimeo" disabled="disabled">
+					<input type="text" name="video_source" class="form-control @error('video_source') is-invalid @enderror" id="vimeo" disabled="disabled" value="{{ old('video_source') }}">
 
 					@error('video_source')
 						<span class="invalid-feedback" role="alert">
