@@ -20,7 +20,7 @@
         <script src="{{ asset('js/jquery-3.3.1.slim.min.js') }}"></script>
         <script src="{{ asset('js/popper.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/slick.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/scripts.js') }}"></script>
+        <script src="{{ asset('js/slick.js') }}"></script>
+        <script src="{{ asset('js/scripts.js') }}"></script>
     </body>
 </html>

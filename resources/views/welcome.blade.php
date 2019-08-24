@@ -11,7 +11,7 @@
 				<button class="navbar-toggler pull-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">          	
 				<i class="fa fa-bars" aria-hidden="true"></i>            
 				</button>
-				<a class="navbar-brand mlgo" href="index.html"><img class="logo" src="images/logo.png"></a>
+				<a class="navbar-brand mlgo" href="index.html"><img class="logo" src="{{ asset('images/logo.png') }}"></a>
 				<button type="button" class="btn blckk" data-toggle="modal" data-target="#myModal">
 				<i class="fa fa-search" aria-hidden="true"></i>
 				</button>
@@ -72,7 +72,7 @@
 <!---End of Header----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="{{ route('video_landing_page') }}"><img src="images/money-honey.jpg" alt="Blank-Image"></a>
+	<a href="{{ route('video_landing_page') }}"><img src="{{ asset('images/money-honey.jpg') }}" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
@@ -89,7 +89,7 @@
 <!---End of full-width-cont-area----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="video.html"><img src="images/rohossho-romance.jpg" alt="Blank-Image"></a>
+	<a href="video.html"><img src="{{ asset('images/rohossho-romance.jpg') }}" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
@@ -106,7 +106,7 @@
 <!---End of full-width-cont-area----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="video.html"><img src="images/ak-raja.jpg" alt="Blank-Image"></a>
+	<a href="video.html"><img src="{{ asset('images/ak-raja.jpg') }}" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
@@ -123,7 +123,7 @@
 <!---End of full-width-cont-area----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="video.html"><img src="images/dhaka-metro.jpg" alt="Blank-Image"></a>
+	<a href="video.html"><img src="{{ asset('images/dhaka-metro.jpg') }}" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
@@ -145,67 +145,67 @@
 		<div class="slider responsive">
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/ami-fire.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/ami-fire.jpg') }}">
 					<h4>আমি আসবো ফিরে</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/guptodhon.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/guptodhon.jpg') }}">
 					<h4>গুপ্তধনের সন্ধানে</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/vut.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/vut.jpg') }}">
 					<h4>ভূত চতুর্দশী</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/mati.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/mati.jpg')}}">
 					<h4>মাটি</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/vinchi-da.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/vinchi-da.jpg') }}">
 					<h4>ভিঞ্চি দা</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/shonkor-mudy.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/shonkor-mudy.jpg') }}">
 					<h4>শঙ্কর মুদি</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/kalo-vromor.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/kalo-vromor.jpg') }}">
 					<h4>কিরীটি ও কালো ভ্রমর</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/mon-janena.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/mon-janena.jpg') }}">
 					<h4>মন জানে না</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/shahjahan.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/shahjahan.jpg') }}">
 					<h4>শাহ জাহান রিজেন্সি</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/Villan.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/Villan.jpg') }}">
 					<h4>ভিলেন</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/jojo.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/jojo.jpg') }}">
 					<h4>Adventures of Jojo</h4>
 				</h3>
 			</div>
@@ -239,7 +239,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/ami-fire.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/ami-fire.jpg') }}">
 					<h4>আমি আসবো ফিরে</h4>
 				</h3>
 			</div>
@@ -264,7 +264,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/guptodhon.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/guptodhon.jpg') }}">
 					<h4>গুপ্তধনের সন্ধানে</h4>
 				</h3>
 			</div>
@@ -289,7 +289,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/vut.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/vut.jpg') }}">
 					<h4>ভূত চতুর্দশী</h4>
 				</h3>
 			</div>
@@ -314,7 +314,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/mati.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/mati.jpg') }}">
 					<h4>মাটি</h4>
 				</h3>
 			</div>
@@ -339,7 +339,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/vinchi-da.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/vinchi-da.jpg') }}">
 					<h4>ভিঞ্চি দা</h4>
 				</h3>
 			</div>
@@ -364,7 +364,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/shonkor-mudy.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/shonkor-mudy.jpg') }}">
 					<h4>শঙ্কর মুদি</h4>
 				</h3>
 			</div>
@@ -389,7 +389,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/kalo-vromor.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/kalo-vromor.jpg') }}">
 					<h4>কিরীটি ও কালো ভ্রমর</h4>
 				</h3>
 			</div>
@@ -414,7 +414,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/mon-janena.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/mon-janena.jpg') }}">
 					<h4>মন জানে না</h4>
 				</h3>
 			</div>
@@ -439,7 +439,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/shahjahan.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/shahjahan.jpg') }}">
 					<h4>শাহ জাহান রিজেন্সি</h4>
 				</h3>
 			</div>
@@ -464,7 +464,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/Villan.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/Villan.jpg') }}">
 					<h4>ভিলেন</h4>
 				</h3>
 			</div>
@@ -489,7 +489,7 @@
 					</div>
 				</div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/jojo.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/jojo.jpg') }}">
 					<h4>Adventures of Jojo</h4>
 				</h3>
 			</div>
@@ -499,7 +499,7 @@
 <!---End of ffeatures----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="video.html"><img src="images/gupto.jpg" alt="Blank-Image"></a>
+	<a href="video.html"><img src="{{ asset('images/gupto.jpg') }}" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
@@ -521,19 +521,19 @@
 		<div class="slider responsive2">
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/sanyal.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/sanyal.jpg') }}">
 					<h4>মিসেস সান্যাল</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/birpurush.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/birpurush.jpg') }}">
 					<h4>Birpurush - The Hero Within</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/biloy.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/biloy.jpg') }}">
 					<h4>বিলয়া</h4>
 				</h3>
 			</div>
@@ -1555,7 +1555,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<div class="footlogo">
-					<img src="images/logo.png">
+					<img src="{{ asset('images/logo.png') }}">
 					<h2>Copyright 2019 Hoichoi Technologies. All rights reserved.</h2>
 				</div>
 			</div>
@@ -1587,8 +1587,8 @@
 			<div class="col-lg-2 col-md-2 col-sm-12">
 				<div class="foot_icon-top">
 					<ul>
-						<li><a href="#"><img src="images/app-store.svg"></a></li>
-						<li><a href="#"><img src="images/google-play.png"></a></li>
+						<li><a href="#"><img src="{{ asset('images/app-store.svg') }}"></a></li>
+						<li><a href="#"><img src="{{ asset('images/google-play.png') }}"></a></li>
 					</ul>
 				</div>
 				<div class="foot_icon-bottom">

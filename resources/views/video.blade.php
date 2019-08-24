@@ -4,7 +4,7 @@
 
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<img src="images/money-honey.jpg" alt="Blank-Image">
+	<img src="{{ asset('images/money-honey.jpg') }}" alt="Blank-Image">
 </section>
 <!---End of full-width-cont-area----->
 <section class="video-inner-social">
@@ -43,7 +43,7 @@
 					<div class="col-lg-4 col-md-4 col-4">
 						<div class="next-episode-img">
 							<div class="image">
-								<img src="images/MH1.jpg">
+								<img src="{{ asset('images/MH1.jpg') }}">
 								<i class="fa fa-play" aria-hidden="true"></i>
 							</div>
 							<progress class="site-color" value="0" max="100"></progress>
@@ -72,67 +72,67 @@
 		<div class="slider responsive3">
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH1.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH1.jpg') }}">
 					<h4><span>1</span>মিসেস সান্যাল</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH2.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH2.jpg') }}">
 					<h4><span>2</span>Birpurush - The Hero Within</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH3.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH3.jpg') }}">
 					<h4><span>3</span>বিলয়া</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH4.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH4.jpg') }}">
 					<h4><span>4</span>অক্ষর</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH5.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH5.jpg') }}">
 					<h4><span>5</span>Aalo</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH6.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH6.jpg') }}">
 					<h4><span>6</span>ময়ূরপঙ্খী</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH7.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH7.jpg') }}">
 					<h4><span>7</span>বিউলির ডাল ও আলুপোস্ত</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH8.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH8.jpg') }}">
 					<h4><span>8</span>সবুজ চশমা</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH9.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH9.jpg') }}">
 					<h4><span>9</span>ফ্লাই</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH10.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH10.jpg') }}">
 					<h4><span>10</span>কালী</h4>
 				</h3>
 			</div>
 			<div>
 				<h3>
-					<i class="fa fa-play" aria-hidden="true"></i><img src="images/MH11.jpg">
+					<i class="fa fa-play" aria-hidden="true"></i><img src="{{ asset('images/MH11.jpg') }}">
 					<h4><span>11</span>পকেটমার</h4>
 				</h3>
 			</div>
