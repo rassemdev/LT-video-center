@@ -104,4 +104,15 @@ class VideoDashboard extends Controller
 
 		return back()->with('error', 'Something went wrong!');
 	}
+
+	public function topVideos()
+	{
+		$topVideos = Video::all();
+		return view('admin.video.top_video',compact('topVideos'));
+	}
+	public function getVideos()
+	{
+		$topVideos = Video::all();
+		return view('admin.video.top_video',compact('topVideos'));
+	}
 }

@@ -15,6 +15,13 @@
 				</a>
 				<div class="triangle"></div>
 			</li>
+			<li class="nav-item">
+				<a class="nav-item-hold" href="{{ route('topVideos') }}">
+					<i class="nav-icon i-Bar-Chart"></i>
+					<span class="nav-text">Top Videos</span>
+				</a>
+				<div class="triangle"></div>
+			</li>
 			<li class="nav-item {{ request()->is('uikits/*') ? 'active' : '' }}" data-item="uikits">
 				<a class="nav-item-hold" href="#">
 					<i class="nav-icon i-Library"></i>
