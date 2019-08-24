@@ -4,6 +4,7 @@
 Auth::routes();
 
 Route::view('/', 'welcome')->name('landing_page');
+Route::view('/video/honey_money', 'video')->name('video_landing_page');
 
 Route::group([
 	'middleware' => ['auth']
@@ -24,11 +25,15 @@ Route::group([
 
 		Route::post('/{category}/change_status', 'Admin\CategoryController@changeStatus')->name('changeStatus');
 	});
+
+	Route::get('/dashboard', 'Admin\VideoDashboard@index')->name('videoDashboard');
+
 	// getting search video throw ajax
 	Route::get('/dashboard/get_videos', 'Admin\VideoDashboard@getVideos')->name('getVideos');
-	Route::get('/dashboard', 'Admin\VideoDashboard@index')->name('videoDashboard');
+
 	// Top Videos
 	Route::get('/dashboard/top_videos', 'Admin\VideoDashboard@topVideos')->name('topVideos');
+
 	Route::get('/dashboard/add_video', 'Admin\VideoDashboard@addVideo')->name('addVideo');
 	Route::post('/dashboard', 'Admin\VideoDashboard@storeVideo')->name('storeVideo');
 	Route::get('/{video}/edit', 'Admin\VideoDashboard@editVideo')->name('editVideo');

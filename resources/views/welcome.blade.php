@@ -72,14 +72,14 @@
 <!---End of Header----->
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
-	<a href="video.html"><img src="images/money-honey.jpg" alt="Blank-Image"></a>
+	<a href="{{ route('video_landing_page') }}"><img src="images/money-honey.jpg" alt="Blank-Image"></a>
 	<div class="section-foot-area">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-foot">
 						<div class="info"><span class="title">মানি হানি</span><span class="more">হেইস্ট</span></div>
-						<div class="cta"><a href="video.html">এখন দেখো</a></div>
+						<div class="cta"><a href="{{ route('video_landing_page') }}">এখন দেখো</a></div>
 					</div>
 				</div>
 			</div>
