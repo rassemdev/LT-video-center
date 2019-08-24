@@ -110,9 +110,17 @@ class VideoDashboard extends Controller
 		$topVideos = Video::all();
 		return view('admin.video.top_video',compact('topVideos'));
 	}
-	public function getVideos()
+	public function getVideos(Request $request)
 	{
-		$topVideos = Video::all();
-		return view('admin.video.top_video',compact('topVideos'));
+		$data = [];
+
+		if ($request->has('term')) {
+			$search = $request->term;
+			$data = Video::select("id", "title")
+					->where('title', 'LIKE', "%" . $search . "%")
+					->get();
+		}
+
+		return response()->json($data);
 	}
 }

@@ -57,7 +57,7 @@
 
 				<div class="card-body">
 					<p>{{ $video->title }}</p>
-					<p>{{ $video->description }}</p>
+					<p>{!! $video->description !!}</p>
 					<p><b>Category: </b>{{ $video->category->name }}</p>
 				</div>
 
