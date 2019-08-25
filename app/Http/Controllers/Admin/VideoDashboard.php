@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 
 use App\Video;
 use App\Category;
+use App\TopVideo;
 
 class VideoDashboard extends Controller
 {
@@ -107,7 +108,7 @@ class VideoDashboard extends Controller
 
 	public function topVideos()
 	{
-		$topVideos = Video::all();
+		$topVideos = TopVideo::with('video')->orderBy('order', 'desc')->get();
 
 		return view('admin.video.top_video', compact('topVideos'));
 	}
@@ -130,6 +131,13 @@ class VideoDashboard extends Controller
 	{
 		$video->load('category');
 
-		return response()->json($video);
+		$newTopVideo = new TopVideo();
+		$newTopVideo->video_id = $video->id;
+
+		if ($newTopVideo->save()) {
+			return response()->json(['status'=>'success', 'data' => $video]);
+		}
+
+		return response()->json(['status'=>'failed']);
 	}
 }
