@@ -108,8 +108,10 @@ class VideoDashboard extends Controller
 	public function topVideos()
 	{
 		$topVideos = Video::all();
-		return view('admin.video.top_video',compact('topVideos'));
+
+		return view('admin.video.top_video', compact('topVideos'));
 	}
+
 	public function getVideos(Request $request)
 	{
 		$data = [];
@@ -122,5 +124,12 @@ class VideoDashboard extends Controller
 		}
 
 		return response()->json($data);
+	}
+
+	public function selectedVideoDetails(Video $video)
+	{
+		$video->load('category');
+
+		return response()->json($video);
 	}
 }

@@ -30,6 +30,8 @@ Route::group([
 
 	// getting search video throw ajax
 	Route::get('/dashboard/get_videos', 'Admin\VideoDashboard@getVideos')->name('getVideos');
+	// getting selected video details
+	Route::get('/dashboard/video_details/{video}', 'Admin\VideoDashboard@selectedVideoDetails')->name('selectedVideoDetails');
 
 	// Top Videos
 	Route::get('/dashboard/top_videos', 'Admin\VideoDashboard@topVideos')->name('topVideos');
