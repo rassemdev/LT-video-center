@@ -3,7 +3,7 @@
 
 Auth::routes();
 
-Route::view('/', 'welcome')->name('landing_page');
+Route::get('/', 'LandingPageController@index')->name('landing_page');
 Route::view('/video/honey_money', 'video')->name('video_landing_page');
 
 Route::group([

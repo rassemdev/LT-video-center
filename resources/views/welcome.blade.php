@@ -70,6 +70,7 @@
 	<!---End of Menu----->
 </header>
 <!---End of Header----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="{{ route('video_landing_page') }}"><img src="{{ asset('images/money-honey.jpg') }}" alt="Blank-Image"></a>
@@ -87,6 +88,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="video.html"><img src="{{ asset('images/rohossho-romance.jpg') }}" alt="Blank-Image"></a>
@@ -104,6 +106,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="video.html"><img src="{{ asset('images/ak-raja.jpg') }}" alt="Blank-Image"></a>
@@ -121,6 +124,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="video.html"><img src="{{ asset('images/dhaka-metro.jpg') }}" alt="Blank-Image"></a>
@@ -138,6 +142,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>পপুলার ছবি</h2>
@@ -213,6 +218,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>হৈচৈ অরিজিনাল ছবি</h2>
@@ -497,6 +503,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="video.html"><img src="{{ asset('images/gupto.jpg') }}" alt="Blank-Image"></a>
@@ -514,6 +521,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue hoichoi-shorts">
 	<h2>হৈচৈ শর্টস</h2>
@@ -589,6 +597,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>EDITOR'S PICK</h2>
@@ -664,6 +673,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of full-width-cont-area----->
 <section class="full-width-cont-area">
 	<a href="video.html"><img src="images/dupur-thakurpo.jpg" alt="Blank-Image"></a>
@@ -681,6 +691,7 @@
 	</div>
 </section>
 <!---End of full-width-cont-area----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>বক্সঅফিস হিটস</h2>
@@ -756,6 +767,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue hoichoi-shorts">
 	<h2>মিউজিক ভিডিওস</h2>
@@ -831,6 +843,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>ঋতুপর্ণ ঘোষের ছবি</h2>
@@ -1115,6 +1128,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>সত্যজিৎ রায়ের ছবি</h2>
@@ -1399,6 +1413,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>তপন সিনহা ছবি</h2>
@@ -1474,6 +1489,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <!---Start of ffeatures----->
 <section id="features" class="blue">
 	<h2>ফ্রি ছবি</h2>
@@ -1549,6 +1565,7 @@
 	</div>
 </section>
 <!---End of ffeatures----->
+
 <footer>
 	<!---Start of Footer--->
 	<div class="container-fluid">
@@ -1604,8 +1621,9 @@
 		</div>
 	</div>
 </footer>
-<!---End of Footer--->  
-<!---Search Modal--->  
+<!---End of Footer--->
+
+<!---Search Modal--->
 <div class="modal msearch" id="myModal">
 	<div class="modal-dialog">
 		<div class="modal-content">
